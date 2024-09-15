@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(errorMiddleware);
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://aco-news-frontend.vercel.app/",
     credentials: true,
   })
 );
